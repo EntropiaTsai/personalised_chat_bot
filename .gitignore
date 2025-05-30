@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+mybot_venv/
+.venv/
+
+# MacOS
+.DS_Store
+
+# Environment files
+.env
+
