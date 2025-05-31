@@ -43,6 +43,13 @@ GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.
 ```
 
 ## RAG （Retrieval-Augmented Generation）：`rag`
+💡 先修改程式碼內容：
+```python
+# 設定檔案路徑
+BASE_DIR = os.path.dirname(__file__)
+ABOUT_ME_PATH = os.path.join(BASE_DIR, "about_me_bak.txt")  ## 將檔名修改為 about_me.txt ，並在about_me.txt 編輯你的自我介紹
+```
+
 在 `rag` 資料夾下，有兩個檔案負責 RAG 的工作，`faiss_index.py` 會透過檢索 `about_me.txt` 的內容，將這些內容送給 `app.py` ，進而調整要給大型語言模型的內容，大型語言模型會透過這些內容去生成送給使用者的文字。
 
 💡 [FAISS (Facebook AI Similarity Search)]('faiss.ai') 是 facebook 提供的向量庫工具，可以將你提供的檢索文件，運算出相似性的相關數值，作為 RAG 的依據。
