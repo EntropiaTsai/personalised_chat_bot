@@ -6,7 +6,7 @@ import os
 
 # 設定檔案路徑
 BASE_DIR = os.path.dirname(__file__)
-ABOUT_ME_PATH = os.path.join(BASE_DIR, "about_me.txt")
+ABOUT_ME_PATH = os.path.join(BASE_DIR, "about_me_bak.txt")
 
 # 載入 embedding 模型
 embedder = SentenceTransformer("all-MiniLM-L6-v2")
