@@ -4,3 +4,4 @@ line-bot-sdk==3.*
 requests
 sentence-transformers
 faiss-cpu
+google-generativeai
