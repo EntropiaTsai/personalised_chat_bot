@@ -34,17 +34,12 @@ personalised_chat_bot/
 
 💡 大型語言模型的選用，取決於個人，因此需要先行在裝置上安裝（本機、GCP、AWS、fly.io等等）。
 
-💡 記得要修改程式裡指定模型的地方：
+💡 記得要修改程式裡API 金鑰的地方，建議透過 `.env` 去設置，避免你公開這個檔案時，你的金鑰會被別人盜用：
 
 ```python
-def call_ollama(prompt):
-    url = "http://localhost:11434/api/generate"
-    payload = {
-	    "model": "tinyllama",  ## 修改成你要的模型
-        "prompt": prompt,
-        "stream": False
-    }
-    headers = {"Content-Type": "application/json"}
+# Gemini API endpoint
+GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}"
+
 ```
 
 ## RAG （Retrieval-Augmented Generation）：`rag`
@@ -54,6 +49,17 @@ def call_ollama(prompt):
 
 💡 `about_me.txt` 是 RAG 參考的檢索文件，其中放的是個人自傳，機器人會根據你的個人資訊，提供使用者相關訊息，你也可以根據你的機器人目的去調整檢索文件。
 
+## 金鑰倉庫 `env.env`
+
+設置時請把檔名從 `env.env` 改成 `.env`，`app.py` 才會從裡面獲取你的各項金鑰。
+
+💡 這個檔案千千萬萬不要公開，這都是屬於個人的機密資料，一旦外流，別人就可以使用這些金鑰去架設他的機器人，但你卻要負擔這些成本。
+
+```
+LINE_CHANNEL_ACCESS_TOKEN=<LINE ACCESS TOKEN>
+LINE_CHANNEL_SECRET=<LINE SECRET>
+GEMINI_API_KEY=<GEMINI金鑰>
+```
 
 
 
