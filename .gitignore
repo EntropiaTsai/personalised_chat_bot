@@ -13,4 +13,19 @@ mybot_venv/
 .env
 
 # my rag data
-about_me_bak.txt
+rag/about_me.txt
+
+
+# 忽略 vector_base 底下所有內容
+vector_base/*
+# 但保留空資料夾（靠這個特殊檔案來保留）
+!vector_base/.gitkeep
+# 忽略 vector_base 底下所有內容
+faiss_index/*
+# 但保留空資料夾（靠這個特殊檔案來保留）
+!faiss_index/.gitkeep
+
+vector_base/
+
+.python-version
+.vscode/
