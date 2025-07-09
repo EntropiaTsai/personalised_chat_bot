@@ -16,24 +16,14 @@ env.env
 # my rag data
 rag/about_me.txt
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 2322804 (integrate coding for rag)
-# 忽略 vector_base 底下所有內容
+# 忽略 vector_base 底下所有內容，但保留 .gitkeep 以保留資料夾
 vector_base/*
-# 但保留空資料夾（靠這個特殊檔案來保留）
 !vector_base/.gitkeep
-# 忽略 vector_base 底下所有內容
+
+# 忽略 faiss_index 底下所有內容，但保留 .gitkeep 以保留資料夾
 faiss_index/*
-# 但保留空資料夾（靠這個特殊檔案來保留）
-<<<<<<< HEAD
 !faiss_index/.gitkeep
 
-vector_base/
-
+# 其他本地設定
 .python-version
 .vscode/
-=======
-!faiss_index/.gitkeep
->>>>>>> 2322804 (integrate coding for rag)
