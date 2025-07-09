@@ -8,6 +8,7 @@ mybot_venv/
 
 models/
 .python-version
+.vscode/
 # MacOS
 .DS_Store
 
