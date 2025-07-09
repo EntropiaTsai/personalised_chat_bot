@@ -6,6 +6,8 @@ __pycache__/
 mybot_venv/
 .venv/
 
+models/
+.python-version
 # MacOS
 .DS_Store
 
@@ -27,3 +29,4 @@ faiss_index/*
 # 其他本地設定
 .python-version
 .vscode/
+

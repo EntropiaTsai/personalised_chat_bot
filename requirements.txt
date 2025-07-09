@@ -17,7 +17,8 @@ python-dotenv
 line-bot-sdk==3.*
 requests
 sentence-transformers
-faiss-cpu
+faiss-cpu # MacOS
+# faiss # Windows
 google-generativeai
 # fasttext
 langid 
