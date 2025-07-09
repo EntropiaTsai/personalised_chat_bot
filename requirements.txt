@@ -1,3 +1,17 @@
+# flask==2.2.5
+# python-dotenv==1.0.1
+# line-bot-sdk==3.5.0
+# requests==2.31.0
+# sentence-transformers==2.2.2
+# faiss-cpu==1.7.3
+# google-generativeai==0.4.1
+# # fasttext-wheel
+# numpy==1.24.4
+# huggingface_hub==0.10.1
+# torch==1.13.1
+
+
+# ---
 flask
 python-dotenv
 line-bot-sdk==3.*
@@ -5,3 +19,5 @@ requests
 sentence-transformers
 faiss-cpu
 google-generativeai
+# fasttext
+langid 

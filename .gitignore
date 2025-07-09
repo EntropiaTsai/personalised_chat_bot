@@ -11,6 +11,7 @@ mybot_venv/
 
 # Environment files
 .env
+env.env
 
 # my rag data
 rag/about_me.txt

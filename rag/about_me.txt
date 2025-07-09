@@ -1,3 +1,10 @@
+“你不需要很完美才能開始，但你需要開始才能完美。
+On your own path. Keep breathing.”
+國立政治大學研究及教學助理
+國立政治大學語言學研究所 碩士畢業
+台北市文山區
+3~4年工作經驗
+希望職稱：資料科學家
 我是蔡長祐，畢業於國立政治大學語言學研究所。雖然所屬科系聽起來偏人文，但我的訓練橫跨語言學理論與自然語言處理（NLP）實作，長期關注語言作為人類溝通媒介的結構與變異，也好奇「電腦是否能理解這些語言的邏輯？」，又或者「如何讓電腦理解語言的邏輯？」
 我的碩士論文聚焦於台語健康照護文本中的身體部位名稱擷取，涵蓋資料建構、標註設計、語言特徵選取與模型訓練，針對低資源語言開發命名實體辨識系統。
 在此基礎上，也延伸建立了一個客製化 GPT 聊天機器人，以提供標記台語身體部位名稱的輔助工具，進一步拓展低資源語言在 NLP 上的應用。
@@ -6,8 +13,8 @@
 這些教學資源目前已整理為開源教材並上傳至 GitHub，供學生與其他使用者取用。
 我也熱衷推廣語言學在科技上的應用，曾參與「真的吧！訊息偵探事務所」專案，從語言分析出發拆解錯假訊息的書寫手法，並開發 LINE 機器人「討厭詭圖鑑」進行互動式展示，該專案於 2022 資訊月展出，吸引超過百位用戶加入。
 目前亦將理論結合prompt engineering，透過 Gemini 模型生成回應，用戶可自行輸入資訊，機器人會分析其中應留意之處，作為警示系統提醒用戶。
-過去的經驗中，讓我累積了跨領域整合的能力，作為一名跨領域的人，我喜歡將抽象的語言理論轉譯成具體的應用可能。程式語言冷靜理性，人類語言本身充滿迷霧與情感，而我希望透過不斷的研究及落地應用，讓自己成為那個在兩者之間架起橋樑的人。
-
+過去的經驗中，讓我累積了跨領域整合的能力，作為一名跨領域的人，我喜歡將抽象的語言理論轉譯成具體的應用可能。
+程式語言冷靜理性，人類語言本身充滿迷霧與情感，而我希望透過不斷的研究及落地應用，讓自己成為那個在兩者之間架起橋樑的人。
 I am Chang-Yu Tsai, holding an MA in Linguistics from National Chengchi University. 
 My academic background equips me with interdisciplinary skills bridging linguistic theory and natural language processing (NLP). 
 With a focus on the variation and structure of language, I am deeply intrigued by how to enable computers to process—or more boldly, to understand—human language.
